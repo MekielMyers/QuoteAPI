@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <title>Quotes Api</title>
+    <!--JavaScript-->
+    <script src="./script.js" defer></script>
+    <!--Css-->
+    <style>
+        *{
+            margin:0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(/Images/woodBG.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            font-family: 'Unbounded', cursive;
+            font-size: 70px;
+            color: white;
+            text-shadow: black 1px 1px;
+        }
+        #quote{
+            font-family: 'Fanwood Text', serif;
+            color: white;
+            text-shadow: black 1px 1px;
+            font-size: 50px;
+        }
+        #author{
+            font-family: 'Fanwood Text', serif;
+            color: white;
+            font-size: 50px;
+            text-shadow: black 1px 1px;
+        }
+        #quoteBtn{
+            background-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+    <!--Api-->
+
+</head>
+<style></style>
+<body>
+    <nav>Would you like a Quote?</nav>
+    <button id="quoteBtn" onclick="A()">Press Me</button>
+    <div id="quote"></div>
+    <div id="author"></div>
+</body>
+</html>
